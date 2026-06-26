@@ -12,8 +12,10 @@
 
 **Software utilizado:** p5.js
 
-**Link al proyecto en p5.js:**
+**Link público al proyecto:**  
 https://editor.p5js.org/maximiliano.tasso/full/EmInqtMPI
+
+**Link editable del sketch:**  
 https://editor.p5js.org/maximiliano.tasso/sketches/EmInqtMPI
 
 ---
