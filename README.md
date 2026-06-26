@@ -219,10 +219,6 @@ la idea original era que el sistema fuera hecho con renders 3d originales y el f
 ![Pantalla de vestir](/imagenes/vestir.png)
 ![Beach card final](/imagenes/final.png)
 
-
-### Iteraciones
-
-
 ## Decisiones de diseño
 
 Una de las decisiones principales fue trabajar con un canvas de **500 × 459 px**, ya que todas las imágenes del sistema fueron diseñadas para ese formato. Esto permitió que las prendas funcionaran como capas PNG colocadas directamente sobre la base, sin necesidad de reposicionarlas mediante código, el tamaño de las imagenes tambien ayudo a reducir los tiempos de espers
