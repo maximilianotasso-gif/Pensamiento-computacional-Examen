@@ -14,6 +14,7 @@
 
 **Link al proyecto en p5.js:**
 https://editor.p5js.org/maximiliano.tasso/full/EmInqtMPI
+https://editor.p5js.org/maximiliano.tasso/sketches/EmInqtMPI
 
 ---
 
