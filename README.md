@@ -45,8 +45,8 @@ Además, en la pantalla final el usuario puede presionar la tecla **S** para gen
 
 ## Descripción conceptual
 
-El mayor referente que tome fue el juego Polly's Rockstar Makeover, este juego representaba bastante bien la estetica y funcionalidad que buscaba representar, este juego tiene tres estados distintivos, tiene un layout de ropa y peinados para emparejar y hace uso de imágenes y sonido. 
-En estetica tome referencias de las interfaces infantiles de los 2000 como los juegos flash o cd-rom, estos juegos normalmente ocupan botones simples y claros que indican lo que hay que hacer para una audiencia infantil. Otro aspecto que tome de estos juegos, es el uso de capas para crear overlays, los outfits iban por sobre una foto base.
+El mayor referente que tomé fue el juego Polly's Rockstar Makeover, este juego representaba bastante bien la estetica y funcionalidad que buscaba representar, este juego tiene tres estados distintivos, tiene un layout de ropa y peinados para emparejar y hace uso de imágenes y sonido. 
+En estetica tomé referencias de las interfaces infantiles de los 2000 como los juegos flash o cd-rom, estos juegos normalmente ocupan botones simples y claros que indican lo que hay que hacer para una audiencia infantil. Otro aspecto que tome de estos juegos, es el uso de capas para crear overlays, los outfits iban por sobre una foto base.
 
 ---
 
@@ -76,7 +76,7 @@ El sistema está organizado a partir de una variable principal llamada `estado`,
 Muestra `intro.png` y el botón `play.png`.
 
 **Estado 1: Pantalla de vestir**
-Muestra `base.png`, las prendas disponible y seleccionadas y el botón `take.png`.
+Muestra `base.png`, las prendas disponibles y seleccionadas y el botón `take.png`.
 
 **Estado 2: Pantalla final / Beach Card**
 Muestra una tarjeta final según la combinación de gorro y top. También permite generar stickers con la tecla S.
@@ -148,7 +148,7 @@ El sistema genera distintos outputs visuales y sonoros:
 * `ilikeyourlook.mp3`: música que suena durante la pantalla de vestir.
 * `coconut.mp3`: sonido o música que se reproduce al llegar a la beach card final.
 
-Los recursos multimedia no funcionan solo como decoración, tambien ayudan a construir la lógica del sistema. Las imágenes permiten vestir al personaje y generar resultados visuales personalizados, mientras que los sonidos marcan acciones y cambios de estado.
+Los recursos multimedia no funcionan solo como decoración, también ayudan a construir la lógica del sistema. Las imágenes permiten vestir al personaje y generar resultados visuales personalizados, mientras que los sonidos marcan acciones y cambios de estado.
 
 ---
 
@@ -222,7 +222,7 @@ la idea original era que el sistema fuera hecho con renders 3d originales y el f
 
 ## Decisiones de diseño
 
-Una de las decisiones principales fue trabajar con un canvas de **500 × 459 px**, ya que todas las imágenes del sistema fueron diseñadas para ese formato. Esto permitió que las prendas funcionaran como capas PNG colocadas directamente sobre la base, sin necesidad de reposicionarlas mediante código, el tamaño de las imagenes tambien ayudo a reducir los tiempos de espers
+Una de las decisiones principales fue trabajar con un canvas de **500 × 459 px**, ya que todas las imágenes del sistema fueron diseñadas para ese formato. Esto permitió que las prendas funcionaran como capas PNG colocadas directamente sobre la base, sin necesidad de reposicionarlas mediante código, el tamaño de las imagenes tambien ayudo a reducir los tiempos de espera.
 
 También se decidió que la beach card final dependiera solamente de la combinación entre gorro y top. Esta decisión simplifica el sistema, reduce la cantidad de imágenes finales necesarias y permite mantener una lógica clara para el usuario y para el código.
 
